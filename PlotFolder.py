@@ -8,7 +8,7 @@ plt.rcParams.update({'figure.max_open_warning': 0})
 
 
 #Modify if folder different
-folder_loc = "C:/Users/PetruzziL/PycharmProjects/ECVar/EC Data/Plotdata"
+folder_loc = "DIR"
 
 #Go in folder, pick data and store in datadf
 count_datafiles = len(os.listdir(folder_loc))
