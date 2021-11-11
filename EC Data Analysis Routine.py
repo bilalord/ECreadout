@@ -54,7 +54,7 @@ folders_address = []
 for i in range(parameter_amount):
     folder_name = str(output_valuebox[i])+' '+output_paraunits[0]
     folders_titles.append(folder_name)
-    base_location = "C:/Users/PetruzziL/PycharmProjects/ECVar/EC Data/"
+    base_location = "DIR"
     folder_location = os.path.join(base_location, folder_name)
     folders_address.append(folder_location)
     os.mkdir(folder_location)
